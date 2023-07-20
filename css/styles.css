@@ -1,0 +1,216 @@
+/* STUDIO */
+:root {
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-grey: #2e2f42;
+  --color-white: #ffffff;
+  --color-dairy: #fcfcfc;
+  --primary-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--logo-font);
+  font-family: var(--primary-font);
+  background-color: var(--color-white);
+  color: var(--color-slate);
+}
+
+/* HEADER */
+
+.logo-type-web {
+  font-family: var(--logo-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-iris);
+}
+
+.span-studio {
+  color: var(--color-navy-blue);
+}
+/* LINKS-HEADER */
+
+.list {
+  list-style: none;
+}
+.nav-link {
+  color: var(--color-navy-blue);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  color: var(--color-ocean);
+}
+.link:focus {
+  color: var(--color-ocean);
+}
+
+/* ADRESS */
+.page-adress {
+  font-style: normal;
+}
+
+.text-adress {
+  font-family: var(--primary-font);
+  color: var(--color-slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+/* MAIN */
+/* Section-page-one */
+
+.section-page-one {
+  background-color: var(--color-navy-blue);
+}
+
+.section-title {
+  font-family: var(--primary-font);
+  color: var(--color-white);
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+/* button */
+.button-title {
+  font-family: var(--primary-font);
+  background-color: var(--color-iris);
+  color: var(--color-white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button-title:hover {
+  background-color: var(--color-ocean);
+}
+.button-title:focus {
+  background-color: var(--color-ocean);
+}
+
+/* SECTION PAGE TWO */
+/* DESIGN TITLE-TEXT AND DESIGN TITLE-SECTION FOR ALL  */
+
+.title {
+  color: var(--color-navy-blue);
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.text {
+  color: var(--color-slate);
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* SECTION PAGE THREE */
+
+.section-title-three {
+  color: var(--color-navy-blue);
+  font-family: var(--primary-font);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.imegines-list-one {
+  list-style: none;
+}
+
+/* SECTIUON-PAGE-FOURE */
+/* section-page-foure */
+/* OurTeam */
+
+.section-title-foure {
+  color: var(--color-navy-blue);
+  font-family: var(--primary-font);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.section-page-foure {
+  background-color: var(--color-cloud);
+}
+.team-card {
+  background-color: var(--color-white);
+}
+
+/* page-footer */
+
+.page-footer {
+  background-color: var(--color-navy-blue);
+}
+.footer-text {
+  color: var(--color-cloud);
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.span-studio-footer {
+  color: var(--color-cloud);
+}
+/* PORTFOLIO */
+/* HEADER */
+
+/* buttons */
+.button-list {
+  list-style: none;
+}
+
+.button-filter {
+  background-color: var(--color-cloud);
+  color: var(--color-iris);
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.button-filter:hover {
+  color: var(--color-white);
+}
+.button-filter:focus {
+  color: var(--color-white);
+}
+.button-filter:hover {
+  background-color: var(--color-ocean);
+}
+.button-filter:focus {
+  background-color: var(--color-ocean);
+}
+
+/* imegines(portfolio) */
+.imagines-list-two {
+  list-style: none;
+}
