@@ -20,6 +20,9 @@ body {
   font-family: var(--primary-font);
   background-color: var(--color-white);
   color: var(--color-slate);
+  width: 1440px;
+  height: 312px;
+  margin: auto;
 }
 
 /* HEADER */
@@ -32,16 +35,24 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
+  margin-right: 76px;
 }
 
 .span-studio {
   color: var(--color-navy-blue);
+  margin: auto;
 }
 /* LINKS-HEADER */
-
+.page-header {
+  border-bottom: 1px;
+  background-color: var(--color-white);
+  width: 1440px;
+  height: 72px;
+}
 .list {
   list-style: none;
 }
+
 .nav-link {
   color: var(--color-navy-blue);
   font-weight: 500;
@@ -59,7 +70,9 @@ body {
 .link:focus {
   color: var(--color-ocean);
 }
-
+.container {
+  width: 1158px;
+}
 /* ADRESS */
 .page-adress {
   font-style: normal;
@@ -76,9 +89,16 @@ body {
 
 /* MAIN */
 /* Section-page-one */
+.conteiner {
+  width: 1158px;
+  margin: auto;
+}
 
 .section-page-one {
   background-color: var(--color-navy-blue);
+  width: 1440px;
+  height: 600px;
+  margin: auto;
 }
 
 .section-title {
@@ -88,6 +108,9 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  width: 496px;
+  height: 120px;
+  margin: auto;
 }
 
 /* button */
@@ -100,6 +123,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  padding: 16px, 32px, 16px, 32px;
+  width: 169px;
+  height: 56px;
 }
 
 .button-title:hover {
@@ -119,6 +145,8 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  width: 264px;
+  height: 24px;
 }
 .text {
   color: var(--color-slate);
@@ -126,6 +154,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
+  height: 72px;
 }
 
 /* SECTION PAGE THREE */
@@ -138,12 +168,15 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin: auto;
 }
 
 .imegines-list-one {
   list-style: none;
 }
-
+.img-box {
+  display: inline;
+}
 /* SECTIUON-PAGE-FOURE */
 /* section-page-foure */
 /* OurTeam */
@@ -156,18 +189,27 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  width: 1440px;
+  height: 732px;
+  margin: auto;
 }
 .section-page-foure {
   background-color: var(--color-cloud);
 }
 .team-card {
   background-color: var(--color-white);
+
+  display: inline-block;
 }
 
 /* page-footer */
 
 .page-footer {
   background-color: var(--color-navy-blue);
+  margin: auto;
+  width: 1440px;
+  height: 312px;
+  margin: auto;
 }
 .footer-text {
   color: var(--color-cloud);
@@ -175,6 +217,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
+  height: 72px;
 }
 .span-studio-footer {
   color: var(--color-cloud);
