@@ -357,4 +357,5 @@ body {
 .box-portfolio {
   margin-right: 24px;
   list-style: none;
+  width: calc((100% - 48px) / 3);
 }
