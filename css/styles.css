@@ -85,6 +85,8 @@ body {
 
 .link {
   text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .link:hover {
   color: var(--color-ocean);
@@ -197,10 +199,8 @@ body {
   letter-spacing: 0.02em;
   width: 264px;
   height: 24px;
-
   margin-bottom: 8px;
   text-align: center;
-  margin-bottom: 8px;
 }
 .text {
   color: var(--color-slate);
@@ -229,12 +229,12 @@ body {
   margin-bottom: 72px;
 }
 
-.list-box {
+.img-box {
   list-style: none;
   display: flex;
   gap: 24px;
 }
-.img-box {
+.img {
   display: block;
 }
 /* SECTIUON-PAGE-FOURE */
@@ -268,7 +268,6 @@ body {
 }
 .team-card {
   background-color: var(--color-white);
-  display: block;
 }
 
 /* page-footer */
@@ -353,6 +352,6 @@ body {
 }
 
 .box-portfolio {
-  display: block;
   margin-right: 24px;
+  list-style: none;
 }
