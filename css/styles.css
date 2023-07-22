@@ -253,7 +253,7 @@ body {
 
   margin-bottom: 72px;
 }
-.conteiner-page-foure {
+.container-page-foure {
   padding: 32px 0;
 }
 .section-page-foure {
@@ -347,6 +347,7 @@ body {
 .list-portfolio {
   display: flex;
   flex-wrap: wrap;
+  column-gap: 24px;
 
   margin-bottom: 48px;
   row-gap: 48px;
