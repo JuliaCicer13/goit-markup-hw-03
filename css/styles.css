@@ -394,5 +394,5 @@ img {
   margin-bottom: 8px;
 }
 .box-portfolio {
-  flex-basis: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
