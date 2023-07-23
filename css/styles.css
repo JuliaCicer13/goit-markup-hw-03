@@ -380,6 +380,7 @@ img {
 /* imegines(portfolio) */
 .link-img {
   text-decoration: none;
+  width: calc((100% - 48px) / 3);
 }
 .list-portfolio {
   display: flex;
