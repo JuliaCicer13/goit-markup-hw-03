@@ -364,6 +364,7 @@ img {
   column-gap: 24px;
   margin-bottom: 48px;
   row-gap: 48px;
+  width: calc((100% - 72px) / 4);
 }
 .container-design {
   padding: 32px 16px;
@@ -374,5 +375,4 @@ img {
 .box-portfolio {
   margin-right: 24px;
   list-style: none;
-  width: calc((100% - 72px) / 4);
 }
