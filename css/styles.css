@@ -222,6 +222,7 @@ ul {
   letter-spacing: 0.02em;
   width: 264px;
   text-align: center;
+  margin: auto;
 }
 
 /* SECTION PAGE THREE */
@@ -372,5 +373,5 @@ img {
   margin-bottom: 8px;
 }
 .box-portfolio {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 48px) / 3);
 }
