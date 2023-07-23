@@ -124,7 +124,9 @@ body {
 
 /* MAIN */
 /* Section-page-one */
-
+.container-page-one {
+  margin: auto;
+}
 .section-page-one {
   background-color: var(--color-navy-blue);
   width: 1440px;
@@ -176,6 +178,9 @@ body {
 /* DESIGN TITLE-TEXT AND DESIGN TITLE-SECTION FOR ALL  */
 .section-page-two {
   padding: 120px 0;
+}
+.container-page-two {
+  margin: auto;
 }
 .list-two {
   display: flex;
@@ -232,6 +237,9 @@ ul {
 }
 
 /* SECTION PAGE THREE */
+.container-page-three {
+  margin: auto;
+}
 .section-page-three {
   padding-bottom: 120px;
 }
@@ -261,6 +269,7 @@ img {
 .section-page-foure {
   padding: 120px 0;
 }
+
 .section-title-foure {
   color: var(--color-navy-blue);
   font-family: var(--primary-font);
@@ -275,6 +284,7 @@ img {
   margin-bottom: 72px;
 }
 .container-page-foure {
+  margin: auto;
 }
 .section-page-foure {
   background-color: var(--color-cloud);
@@ -293,7 +303,9 @@ img {
   padding: 32px 0;
 }
 /* page-footer */
-
+.container-footer {
+  margin: auto;
+}
 .page-footer {
   background-color: var(--color-navy-blue);
   margin: auto;
@@ -320,10 +332,11 @@ img {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-.conteiner-portfolio {
+.container-portfolio {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  margin: auto;
 }
 /* buttons */
 .list-filter {
