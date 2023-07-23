@@ -378,6 +378,9 @@ img {
 }
 
 /* imegines(portfolio) */
+.link-img {
+  text-decoration: none;
+}
 .list-portfolio {
   display: flex;
   list-style: none;
