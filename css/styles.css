@@ -26,7 +26,11 @@ body {
 }
 
 /* HEADER */
-
+.page-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .page-header {
   border-bottom: 1px;
   background-color: var(--color-white);
@@ -114,6 +118,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: inline-block;
+  padding: 24px 0;
 }
 
 /* MAIN */
