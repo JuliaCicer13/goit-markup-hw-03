@@ -375,4 +375,5 @@ img {
 .box-portfolio {
   margin-right: 24px;
   list-style: none;
+  width: calc((100% - 72px) / 4);
 }
