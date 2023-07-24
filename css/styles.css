@@ -86,7 +86,6 @@ body {
 
 .link {
   text-decoration: none;
-  display: inline-block;
 }
 .link:hover {
   color: var(--color-ocean);
@@ -308,7 +307,7 @@ img {
   color: var(--color-iris);
   margin-right: 76px;
   display: flex;
-
+  display: inline-block;
   margin-bottom: 16px;
 }
 .container-footer {
