@@ -323,6 +323,7 @@ img {
   margin-right: 76px;
   display: flex;
   display: inline-block;
+  margin-bottom: 16px;
 }
 .container-footer {
   margin: auto;
