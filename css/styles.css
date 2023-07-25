@@ -202,7 +202,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: auto;
 }
 ul {
@@ -217,7 +218,6 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  text-align: center;
 }
 .text {
   color: var(--color-slate);
@@ -225,11 +225,27 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 264px;
-  text-align: center;
   margin: auto;
 }
-
+.text-team {
+  color: var(--color-slate);
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin: auto;
+  text-align: center;
+}
+.title-team {
+  color: var(--color-navy-blue);
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  text-align: center;
+}
 /* SECTION PAGE THREE */
 .container-page-three {
   margin: auto;
@@ -308,7 +324,6 @@ img {
   margin-right: 76px;
   display: flex;
   display: inline-block;
-  margin-bottom: 16px;
 }
 .container-footer {
   margin: auto;
@@ -316,8 +331,6 @@ img {
 .page-footer {
   background-color: var(--color-navy-blue);
 
-  width: 1440px;
-  height: 312px;
   margin: auto;
   padding: 100px 0;
 }
@@ -327,8 +340,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 264px;
-  height: 72px;
 }
 .span-studio-footer {
   color: var(--color-cloud);
