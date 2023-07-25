@@ -202,8 +202,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
-p {
+h6 {
   margin: auto;
 }
 ul {
@@ -225,7 +224,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin: auto;
+  margin-top: 8px;
 }
 .text-team {
   color: var(--color-slate);
@@ -330,7 +329,6 @@ img {
 }
 .page-footer {
   background-color: var(--color-navy-blue);
-
   margin: auto;
   padding: 100px 0;
 }
@@ -340,6 +338,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 .span-studio-footer {
   color: var(--color-cloud);
